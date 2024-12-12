@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.list-items {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-family: 'Roboto';
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.para1 {
+  color: #171f46;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.button2 {
+  background: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.img2 {
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+.para2 {
+  color: #b5b7c4;
+  font-size: 13px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .list-items {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 32px;
+    min-width: 297px;
+  }
+
+  .img2 {
+    height: 25px;
+    width: 25px;
+  }
+
+  .para2 {
+    font-size: 15px;
+  }
+}
